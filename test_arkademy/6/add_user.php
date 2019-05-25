@@ -5,4 +5,4 @@ $name = $_POST['progname'];
 
 mysqli_query($conn, "INSERT INTO users(name) VALUES('$name')");
 
-header('Location: http://localhost/test2/6');
+header('Location: http://localhost/test_arkademy/6');
